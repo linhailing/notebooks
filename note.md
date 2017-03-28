@@ -241,4 +241,26 @@ DOWNLOADER_MIDDLEWARES = {
     http://www.dianping.com/citylist
 ```
 
+# scrapy post 提交
+
+```python
+yield scrapy.FormRequest(
+    url="http://www.medsci.cn/sci/index.do?action=search",
+    formdata={
+        'fullname': str(ls),
+        'bigclass': 'null',
+        'smallclass': 'null',
+        'impact_factor_b': '',
+        'impact_factor_s': '',
+        'rank': 'number_rank_b'},
+        callback=self.parse_project,
+        dont_filter = True
+        )
+```
+
+# use markdown table 
+
+
+
+
 
