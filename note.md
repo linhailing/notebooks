@@ -258,7 +258,11 @@ yield scrapy.FormRequest(
         )
 ```
 
-# use markdown table 
+# scrapy download 
+计算总共多少条数据
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=china&reldate=10&datetype=edat&usehistory=y&retmode=json&rettype=count
+根据多少条数据分页
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=china&reldate=10&datetype=edat&usehistory=y&retmode=json&retmax=200
 
 
 
