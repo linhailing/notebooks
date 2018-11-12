@@ -3,7 +3,7 @@
 ```css
   -webkit-appearance: none;
 ```
-+ <input> 默认样式清除:
++ input 默认样式清除:
 
 ```css
 outline: none;
