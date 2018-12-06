@@ -29,7 +29,7 @@ exit
 ```
 # 在.bashrc写入开机启动项
 vim ~/.bashrc
- 
+
 # 开机启动项
 service php7.0-fpm start
 service mysql start
