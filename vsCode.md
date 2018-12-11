@@ -27,3 +27,11 @@ ctrl+alt+d ctrl+alt+d
 + ESLint(js检查错误提示)
 
 + Markdown Preview Enhanced &&  MarkdownInin
+
++ vscode weapp api
+
++ vscode wxml
+
++ vscode-wechat
+
++ Easy WXLESS
